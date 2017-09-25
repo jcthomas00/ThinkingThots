@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ThinkingThots</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar goes here -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo center"><i class="large material-icons">face</i>Thinking Thots</a>
+        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="survey">Survey</a></li>
+          <li><a href="api">API Thot List</a></li>
+          <li><a href="https://github.com/jcthomas00/ThinkingThots">GitHub Repo</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="survey">Survey</a></li>
+          <li><a href="api">API Thot List</a></li>
+          <li><a href="https://github.com/jcthomas00/ThinkingThots">GitHub Repo</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page Layout here -->
+    <div class="row">
+      <!-- Insert Handlebar content here -->
+      {{{body}}}
+    </div>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

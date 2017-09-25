@@ -1,0 +1,83 @@
+<!-- Template for adding a new user -->
+<div class="row">
+	<div class="col s12 center">
+		<h5 class="pink-text">Answer these questions honestly.</h5>
+	</div>
+</div>
+<div class="row">
+	<div class="col s12 m8">
+		<div class="row">
+			<div class="col s4">
+				<span class="">Strongly Disagree</span>
+			</div>
+			<div class="col s4 center">
+				<span class="">Neutral</span>
+			</div>
+			<div class="col s4">
+				<span class="right">Strongly Agree</span>
+			</div>
+		</div>
+		<form action="/survey" method="POST">
+			<div class="row container">
+				<p class="range-field">
+					<label for="range1">You know what boys like.</label>
+					<input type="range" name="range1" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">You know what boys want.</label>
+					<input type="range" name="range2" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">Boys like you.</label>
+					<input type="range" name="range3" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">You don't like paying for a dating site.</label>
+					<input type="range" name="range4" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">You like installing apps.</label>
+					<input type="range" name="range5" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">You like swiping left.</label>
+					<input type="range" name="range6" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">Going to a club is too much work.</label>
+					<input type="range" name="range7" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">You'd rather visit a heroku app than a legitimate site'.</label>
+					<input type="range" name="range8" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">You hate white christmas - the song and the climate.</label>
+					<input type="range" name="range9" min="1" max="5" />
+				</p>
+				<p class="range-field">
+					<label for="range1">Cats are the best.</label>
+					<input type="range" name="range10" min="1" max="5" />
+				</p>
+			</div>
+		</div>
+		<div class="col s12 m4 left">
+			<div class="row container">
+				<div class="col s12">
+					<span class="">Your Information</span>
+				</div>
+				<div class="input-field col s12">
+					<input placeholder="Your Name" name="name" type="text" class="validate" required="true">
+					<label for="first_name">Your Name</label>
+				</div>
+				<div class="input-field col s12">
+					<input placeholder="Your Pic URL" name="photo" type="text" class="validate" required="true">
+					<label for="first_name">Your Picture</label>
+				</div>
+				<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+				<i class="material-icons right">send</i>
+				</button>
+			</div>
+		</div>
+	</form>
+</div>
