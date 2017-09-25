@@ -40,6 +40,7 @@ module.exports = function(app){
   	for (user of users){
   		differences.push(diff(user.scores, userResponses)); 
   	}
+console.log(differences);
 
   	//get the index of the closes match (smallest difference)
   	matchIndex = differences.indexOf(Math.min.apply(Math, differences));
