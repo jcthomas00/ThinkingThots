@@ -8,7 +8,7 @@ This is an exercise in fun that flips gender stereotypes while also displying th
 3. JavaScript
 4. Express
 
-##User Guide
+## User Guide
 
 * This App can be run locally by running `npm-install` in the terminal and entering `node server.js`. You can use the app by going to http://localhost:3000
 
